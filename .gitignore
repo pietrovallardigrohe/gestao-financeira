@@ -1,0 +1,81 @@
+# Qt-specific ignores
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.moc
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.qmlc
+*.jsc
+Makefile*
+*build-*
+*.qm
+.qmake.stash
+.qt
+out/
+
+# Build directories
+debug/
+release/
+build/
+
+# Object files
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.exe
+
+# Precompiled headers
+*.gch
+*.pch
+
+# Generated files
+*.log
+moc_predefs.h
+
+# Qt Creator specific
+CMakeLists.txt.user*
+
+# OS specific
+## Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Editor specific
+## Visual Studio Code
+.vscode/
+.history/
+
+# C/C++ specific
+## Compiled Object files
+*.lo
+*.o
+
+## Precompiled Headers
+*.gch
+*.pch
+
+## Compiled Dynamic libraries
+*.so
+*.dylib
+
+## Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Project specific
+application_log.txt
+debug_log.txt

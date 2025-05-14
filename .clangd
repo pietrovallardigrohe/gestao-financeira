@@ -1,0 +1,11 @@
+CompileFlags:
+  Add:
+    - "-I."
+    - "-IC:/Qt/6.9.0/mingw_64/include"
+    - "-IC:/Qt/6.9.0/mingw_64/include/QtWidgets"
+    - "-IC:/Qt/6.9.0/mingw_64/include/QtGui"
+    - "-IC:/Qt/6.9.0/mingw_64/include/QtCore"
+    - "-DQT_WIDGETS_LIB"
+    - "-DQT_GUI_LIB"
+    - "-DQT_CORE_LIB"
+    - "-std=c++17"
