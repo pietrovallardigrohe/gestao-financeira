@@ -1,0 +1,1 @@
+int initWindow(QApplication &app);

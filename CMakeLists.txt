@@ -13,6 +13,8 @@ qt_add_executable(gestao
         src//ui//mainwindow.cpp
         src//ui//mainwindow.h
         src//ui//mainwindow.ui
+        src//ui//window.cpp
+        src//ui//window.h
 )
 target_link_libraries(gestao PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
 
