@@ -1,16 +1,11 @@
 #include "ui/MainWindow.h"
 #include <QApplication>
-#include <QDebug>
 #include <QScreen>
-#include <QTimer>
 
 int main(int argc, char *argv[]) {
   // Force software OpenGL rendering instead of hardware acceleration
   qputenv("QT_OPENGL", "software");
   qputenv("QT_QUICK_BACKEND", "software");
-
-  // Enable Qt debugging
-  qputenv("QT_DEBUG_PLUGINS", "1");
 
   QApplication app(argc, argv);
 
@@ -28,22 +23,15 @@ int main(int argc, char *argv[]) {
   int y = (screenGeometry.height() - mainWindow.height()) / 2;
   mainWindow.move(x, y);
 
-  // Reset window flags to default before showing
-  mainWindow.setWindowFlags(Qt::Window);
+  // Set the window to stay on top
+  mainWindow.setWindowFlags(mainWindow.windowFlags() |
+                            Qt::WindowStaysOnTopHint);
 
-  // Show window first before changing other properties
+  // Make sure the window is visible and active
+  mainWindow.setWindowState(Qt::WindowActive);
   mainWindow.show();
-
-  // Process events to ensure window is created
-  QApplication::processEvents();
-
-  // Use a short timer to make sure window gets focus after initial setup
-  QTimer::singleShot(100, [&]() {
-    mainWindow.raise();
-    mainWindow.activateWindow();
-
-    qDebug() << "Window should be visible now";
-  });
+  mainWindow.raise();
+  mainWindow.activateWindow();
 
   // Execute the application
   return app.exec();

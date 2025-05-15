@@ -1,81 +1,82 @@
-# Qt-specific ignores
-*.pro.user
-*.pro.user.*
-*.qbs.user
-*.qbs.user.*
+# This file is used to ignore files which are generated
+# ----------------------------------------------------------------------------
+
+*~
+*.autosave
+*.a
+*.core
 *.moc
-moc_*.cpp
-moc_*.h
-qrc_*.cpp
-ui_*.h
-*.qmlc
-*.jsc
-Makefile*
-*build-*
-*.qm
-.qmake.stash
-.qt
-out/
-
-# Build directories
-debug/
-release/
-build/
-
-# Object files
 *.o
 *.obj
+*.orig
+*.rej
 *.so
-*.dll
-*.dylib
-*.exe
+*.so.*
+*_pch.h.cpp
+*_resource.rc
+*.qm
+.#*
+*.*#
+core
+!core/
+tags
+.DS_Store
+.directory
+*.debug
+Makefile*
+*.prl
+*.app
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+Thumbs.db
+*.res
+*.rc
+/.qmake.cache
+/.qmake.stash
 
-# Precompiled headers
-*.gch
-*.pch
-
-# Generated files
-*.log
-moc_predefs.h
-
-# Qt Creator specific
+# qtcreator generated files
+*.pro.user*
+*.qbs.user*
 CMakeLists.txt.user*
 
-# OS specific
-## Windows
-Thumbs.db
-ehthumbs.db
-desktop.ini
-$RECYCLE.BIN/
-*.cab
-*.msi
-*.msm
-*.msp
+# xemacs temporary files
+*.flc
 
-# Editor specific
-## Visual Studio Code
-.vscode/
-.history/
+# Vim temporary files
+.*.swp
 
-# C/C++ specific
-## Compiled Object files
-*.lo
-*.o
+# Visual Studio generated files
+*.ib_pdb_index
+*.idb
+*.ilk
+*.pdb
+*.sln
+*.suo
+*.vcproj
+*vcproj.*.*.user
+*.ncb
+*.sdf
+*.opensdf
+*.vcxproj
+*vcxproj.*
 
-## Precompiled Headers
-*.gch
-*.pch
+# MinGW generated files
+*.Debug
+*.Release
 
-## Compiled Dynamic libraries
-*.so
-*.dylib
+# Python byte code
+*.pyc
 
-## Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# Binaries
+# --------
+*.dll
+*.exe
 
-# Project specific
-application_log.txt
-debug_log.txt
+# Directories with generated files
+.moc/
+.obj/
+.pch/
+.rcc/
+.uic/
+/build*/
