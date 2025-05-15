@@ -8,13 +8,25 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 find_package(Qt6 REQUIRED COMPONENTS Widgets)
 qt_standard_project_setup()
 
+set(PROJECT_HEADERS
+    src/ui/GraphNode.h
+    src/ui/GraphView.h
+    src/ui/window.h
+    src/ui/mainwindow.ui
+    src/ui/mainwindow.h
+)
+
+set(PROJECT_SOURCES
+    src/ui/GraphNode.cpp
+    src/ui/GraphView.cpp
+    src/ui/mainwindow.cpp
+    src/ui/window.cpp
+)
+
 qt_add_executable(gestao
-        src//main.cpp
-        src//ui//mainwindow.cpp
-        src//ui//mainwindow.h
-        src//ui//mainwindow.ui
-        src//ui//window.cpp
-        src//ui//window.h
+    src/main.cpp
+    ${PROJECT_HEADERS}
+    ${PROJECT_SOURCES}
 )
 target_link_libraries(gestao PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
 
