@@ -27,7 +27,6 @@ MainWindow::MainWindow(QWidget *parent)
   m_graphView->addNode("node3", "Node 3", 75, 100);
 
   m_graphView->addEdge("node1", "node2");
-  m_graphView->addEdge("node1", "node3");
   m_graphView->addEdge("node2", "node3");
 }
 

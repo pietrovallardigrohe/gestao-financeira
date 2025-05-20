@@ -1,1 +1,1 @@
-int initWindow(QApplication &app);
+std::unique_ptr<MainWindow> initWindow(QApplication &app);

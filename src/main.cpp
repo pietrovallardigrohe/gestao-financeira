@@ -11,5 +11,9 @@ int main(int argc, char *argv[])
 
   QApplication app(argc, argv);
 
-  initWindow(app);
+  app.quitOnLastWindowClosed();
+
+  std::unique_ptr<MainWindow> main_window = initWindow(app);
+
+  app.exec();
 }
