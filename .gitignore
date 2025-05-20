@@ -80,5 +80,6 @@ CMakeLists.txt.user*
 .rcc/
 .uic/
 /build/*
+builds/*
 !build/
 !build/compile_commands.json
