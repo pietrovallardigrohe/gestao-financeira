@@ -1,38 +1,38 @@
 [
 {
-  "directory": "C:/Users/pietro.grohe/Desktop/Development/gestao-financeira/build",
-  "command": "c:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/pietro.grohe/Desktop/Development/gestao-financeira/build/gestao_autogen/include -isystem C:/Qt/6.9.0/mingw_64/include/QtCore -isystem C:/Qt/6.9.0/mingw_64/include -isystem C:/Qt/6.9.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.0/mingw_64/include/QtGui -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=gnu++17 -o CMakeFiles\\gestao.dir\\gestao_autogen\\mocs_compilation.cpp.obj -c C:\\Users\\pietro.grohe\\Desktop\\Development\\gestao-financeira\\build\\gestao_autogen\\mocs_compilation.cpp",
-  "file": "C:\\Users\\pietro.grohe\\Desktop\\Development\\gestao-financeira\\build\\gestao_autogen\\mocs_compilation.cpp",
+  "directory": "C:/Code/gestao-financeira/build",
+  "command": "c:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Code/gestao-financeira/build/gestao_autogen/include -isystem C:/Qt/6.9.0/mingw_64/include/QtCore -isystem C:/Qt/6.9.0/mingw_64/include -isystem C:/Qt/6.9.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.0/mingw_64/include/QtGui -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\gestao.dir\\gestao_autogen\\mocs_compilation.cpp.obj -c C:\\Code\\gestao-financeira\\build\\gestao_autogen\\mocs_compilation.cpp",
+  "file": "C:\\Code\\gestao-financeira\\build\\gestao_autogen\\mocs_compilation.cpp",
   "output": "CMakeFiles\\gestao.dir\\gestao_autogen\\mocs_compilation.cpp.obj"
 },
 {
-  "directory": "C:/Users/pietro.grohe/Desktop/Development/gestao-financeira/build",
-  "command": "c:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/pietro.grohe/Desktop/Development/gestao-financeira/build/gestao_autogen/include -isystem C:/Qt/6.9.0/mingw_64/include/QtCore -isystem C:/Qt/6.9.0/mingw_64/include -isystem C:/Qt/6.9.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.0/mingw_64/include/QtGui -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=gnu++17 -o CMakeFiles\\gestao.dir\\src\\main.cpp.obj -c C:\\Users\\pietro.grohe\\Desktop\\Development\\gestao-financeira\\src\\main.cpp",
-  "file": "C:\\Users\\pietro.grohe\\Desktop\\Development\\gestao-financeira\\src\\main.cpp",
+  "directory": "C:/Code/gestao-financeira/build",
+  "command": "c:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Code/gestao-financeira/build/gestao_autogen/include -isystem C:/Qt/6.9.0/mingw_64/include/QtCore -isystem C:/Qt/6.9.0/mingw_64/include -isystem C:/Qt/6.9.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.0/mingw_64/include/QtGui -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\gestao.dir\\src\\main.cpp.obj -c C:\\Code\\gestao-financeira\\src\\main.cpp",
+  "file": "C:\\Code\\gestao-financeira\\src\\main.cpp",
   "output": "CMakeFiles\\gestao.dir\\src\\main.cpp.obj"
 },
 {
-  "directory": "C:/Users/pietro.grohe/Desktop/Development/gestao-financeira/build",
-  "command": "c:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/pietro.grohe/Desktop/Development/gestao-financeira/build/gestao_autogen/include -isystem C:/Qt/6.9.0/mingw_64/include/QtCore -isystem C:/Qt/6.9.0/mingw_64/include -isystem C:/Qt/6.9.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.0/mingw_64/include/QtGui -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=gnu++17 -o CMakeFiles\\gestao.dir\\src\\ui\\GraphNode.cpp.obj -c C:\\Users\\pietro.grohe\\Desktop\\Development\\gestao-financeira\\src\\ui\\GraphNode.cpp",
-  "file": "C:\\Users\\pietro.grohe\\Desktop\\Development\\gestao-financeira\\src\\ui\\GraphNode.cpp",
+  "directory": "C:/Code/gestao-financeira/build",
+  "command": "c:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Code/gestao-financeira/build/gestao_autogen/include -isystem C:/Qt/6.9.0/mingw_64/include/QtCore -isystem C:/Qt/6.9.0/mingw_64/include -isystem C:/Qt/6.9.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.0/mingw_64/include/QtGui -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\gestao.dir\\src\\ui\\GraphNode.cpp.obj -c C:\\Code\\gestao-financeira\\src\\ui\\GraphNode.cpp",
+  "file": "C:\\Code\\gestao-financeira\\src\\ui\\GraphNode.cpp",
   "output": "CMakeFiles\\gestao.dir\\src\\ui\\GraphNode.cpp.obj"
 },
 {
-  "directory": "C:/Users/pietro.grohe/Desktop/Development/gestao-financeira/build",
-  "command": "c:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/pietro.grohe/Desktop/Development/gestao-financeira/build/gestao_autogen/include -isystem C:/Qt/6.9.0/mingw_64/include/QtCore -isystem C:/Qt/6.9.0/mingw_64/include -isystem C:/Qt/6.9.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.0/mingw_64/include/QtGui -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=gnu++17 -o CMakeFiles\\gestao.dir\\src\\ui\\GraphView.cpp.obj -c C:\\Users\\pietro.grohe\\Desktop\\Development\\gestao-financeira\\src\\ui\\GraphView.cpp",
-  "file": "C:\\Users\\pietro.grohe\\Desktop\\Development\\gestao-financeira\\src\\ui\\GraphView.cpp",
+  "directory": "C:/Code/gestao-financeira/build",
+  "command": "c:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Code/gestao-financeira/build/gestao_autogen/include -isystem C:/Qt/6.9.0/mingw_64/include/QtCore -isystem C:/Qt/6.9.0/mingw_64/include -isystem C:/Qt/6.9.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.0/mingw_64/include/QtGui -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\gestao.dir\\src\\ui\\GraphView.cpp.obj -c C:\\Code\\gestao-financeira\\src\\ui\\GraphView.cpp",
+  "file": "C:\\Code\\gestao-financeira\\src\\ui\\GraphView.cpp",
   "output": "CMakeFiles\\gestao.dir\\src\\ui\\GraphView.cpp.obj"
 },
 {
-  "directory": "C:/Users/pietro.grohe/Desktop/Development/gestao-financeira/build",
-  "command": "c:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/pietro.grohe/Desktop/Development/gestao-financeira/build/gestao_autogen/include -isystem C:/Qt/6.9.0/mingw_64/include/QtCore -isystem C:/Qt/6.9.0/mingw_64/include -isystem C:/Qt/6.9.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.0/mingw_64/include/QtGui -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=gnu++17 -o CMakeFiles\\gestao.dir\\src\\ui\\mainwindow.cpp.obj -c C:\\Users\\pietro.grohe\\Desktop\\Development\\gestao-financeira\\src\\ui\\mainwindow.cpp",
-  "file": "C:\\Users\\pietro.grohe\\Desktop\\Development\\gestao-financeira\\src\\ui\\mainwindow.cpp",
+  "directory": "C:/Code/gestao-financeira/build",
+  "command": "c:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Code/gestao-financeira/build/gestao_autogen/include -isystem C:/Qt/6.9.0/mingw_64/include/QtCore -isystem C:/Qt/6.9.0/mingw_64/include -isystem C:/Qt/6.9.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.0/mingw_64/include/QtGui -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\gestao.dir\\src\\ui\\mainwindow.cpp.obj -c C:\\Code\\gestao-financeira\\src\\ui\\mainwindow.cpp",
+  "file": "C:\\Code\\gestao-financeira\\src\\ui\\mainwindow.cpp",
   "output": "CMakeFiles\\gestao.dir\\src\\ui\\mainwindow.cpp.obj"
 },
 {
-  "directory": "C:/Users/pietro.grohe/Desktop/Development/gestao-financeira/build",
-  "command": "c:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/pietro.grohe/Desktop/Development/gestao-financeira/build/gestao_autogen/include -isystem C:/Qt/6.9.0/mingw_64/include/QtCore -isystem C:/Qt/6.9.0/mingw_64/include -isystem C:/Qt/6.9.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.0/mingw_64/include/QtGui -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=gnu++17 -o CMakeFiles\\gestao.dir\\src\\ui\\window.cpp.obj -c C:\\Users\\pietro.grohe\\Desktop\\Development\\gestao-financeira\\src\\ui\\window.cpp",
-  "file": "C:\\Users\\pietro.grohe\\Desktop\\Development\\gestao-financeira\\src\\ui\\window.cpp",
+  "directory": "C:/Code/gestao-financeira/build",
+  "command": "c:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Code/gestao-financeira/build/gestao_autogen/include -isystem C:/Qt/6.9.0/mingw_64/include/QtCore -isystem C:/Qt/6.9.0/mingw_64/include -isystem C:/Qt/6.9.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.0/mingw_64/include/QtGui -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\gestao.dir\\src\\ui\\window.cpp.obj -c C:\\Code\\gestao-financeira\\src\\ui\\window.cpp",
+  "file": "C:\\Code\\gestao-financeira\\src\\ui\\window.cpp",
   "output": "CMakeFiles\\gestao.dir\\src\\ui\\window.cpp.obj"
 }
 ]

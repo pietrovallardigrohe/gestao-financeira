@@ -3,7 +3,7 @@
 #include <QScreen>
 #include "ui/Window.h"
 
-int main(int argc, char *argv[])
+void main(int argc, char *argv[])
 {
   // Force software OpenGL rendering instead of hardware acceleration
   qputenv("QT_OPENGL", "software");
